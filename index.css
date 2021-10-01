@@ -25,5 +25,19 @@ body {
 .star-destroyer {
     width: 100px;
     height: 100px;
+    background-color: gray;
+}
+
+.sith {
+    height: 50px;
+    width: 50px;
     background-color: red;
+    color: red;
+    position: absolute;
+    top: 100%;
+    transition: all 0.4s;
+}
+
+.star-destroyer.revealed .sith{
+    top: 0;
 }
